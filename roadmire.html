@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Crystal Ltd</title>
+    <style>
+ header {
+
+    
+
+
+   .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #1870d5;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: #1870d5;
+  color: white;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #1870d5;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: #1870d5;
+  color: white;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+ }
+
+
+      /* Logo styles */
+      .logo {
+float: left;
+position: relative;
+  top: -70px;    
+ margin: 0 15px 0 0
+        max-width: 100px;
+
+     
+ }
+
+        body {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+    margin:0;
+    padding:100px 0 50px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: 10;
+  width: 50%;
+}
+       #header {
+           
+            padding: 80px;
+            text-align: center;
+            color: #000000
+ 
+
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 150%;
+    max-height: 200%;
+ padding-left: 0px;
+position: relative;
+  top: 190px; 
+    float: right;
+
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10%;
+    float: left;
+ text-indent:1em;  
+    text-align:justify;
+
+ }
+ 
+
+
+
+
+       
+ #menu-icon {
+            display: none; /* Hide the menu icon by default on larger screens */
+            cursor: pointer;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff; /* White text color for the menu */
+            font-size: 24px;
+        }
+
+        .menu-item {
+            padding: 20px;
+        }
+
+        /* Media query to show/hide the menu icon based on screen size */
+        @media screen and (max-width: 768px) {
+            #menu {
+                display: none; /* Hide the menu on larger screens */
+            }
+
+            #menu-icon {
+                display: block; /* Show the menu icon on smaller screens */
+            }
+        
+}
+
+}
+    </style>
+</head>
+<body>
+
+    <div id="header">
+<header>
+
+      <img src="https://pbs.twimg.com/media/F_oESjGX0AAcfuD?format=jpg&name=240x240" alt="Logo" class="logo">
+      
+ <button class="button button1">BRIDAL</button>
+<button class="button button2">JEWELRY</button>
+ <button class="button button1">WATCHES</button>
+<button class="button button2">SERVICES</button>
+ <button class="button button1">FINANCING</button>
+<button class="button button2">ABOUT</button>
+
+
+     <div class="container">
+
+      <div class="image">
+
+  <img src="https://img.freepik.com/premium-photo/modern-luxury-jewelry-isolated-white-background_709135-254.jpg?w=740">
+ </div>
+     
+   
+
+    
+
+  <div class="text">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1 class="animate-charcter">Who are we?</h1>
+    </div>
+  </div>
+</div>
+  <p>
+Blue Crystal Limited, a captivating jewelry company based in<br> Nairobi,
+Kenya, was envisioned and brought to life by Brian as  part of his school<br>
+project in 2023. Brian's creative vision and passion for exquisite craftsmanship<br>
+led him to establish a brand that reflects the beauty and diversity of Kenyan culture.<br>
+Blue Crystal Limited specializes in crafting stunning jewelry pieces that showcase a <br>
+harmonious blend of traditional and contemporary designs, incorporating locally sourced <br>
+gemstones and materials.The company not only aims tocreate aesthetically pleasing<br>
+accessories but also strives to contribute to the local economy by promoting skilled<br>
+craftsmanship. Through Brian's dedication and innovative approach, Blue Crystal Limited<br>
+has become a shining example of how entrepreneurship can be a catalyst for both artistic<br>
+expression and community development.
+</p>
+</div>
+
+
+ 
+
+     
+
+ 
+
+    <script>
+        // JavaScript function to toggle the menu on small screens
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
+
+</body>
+</html>
